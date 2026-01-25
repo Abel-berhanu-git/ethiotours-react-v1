@@ -90,7 +90,7 @@ export const tours = [
   },
   {
     id: 4,
-    img: tourImg1,
+    img: tourImg4,
     tourDate: 'November 26th, 2025',
     tourTitle: 'SofOmar Caves',
     duration: '8',

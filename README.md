@@ -57,7 +57,7 @@ EthioTours is a React-based tourism website that highlights Ethiopia's rich cult
 ## 📁 Project Structure
 
 ```
-ethiotours-react-v1/
+ethiotours-project/
 ├── public/
 │   ├── images/          # Static images
 │   └── index.html       # Main HTML template
