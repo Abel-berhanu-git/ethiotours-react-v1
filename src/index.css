@@ -266,25 +266,9 @@ Navbar
 
 /**** for hide the nav-links ****/
 
-/* .nav-links {
-  display: none;
-  transition: var(--transition);
-}
-
-.show-nav-links {
-  display: block;
-} */
-
-/* **** or use height at 280px ***** */
-
-.nav-links {
-  height: 0;
+.nav-container {
   overflow: hidden;
   transition: var(--transition);
-}
-
-.show-nav-links {
-  height: 280px;
 }
 
 @media screen and (min-width: 768px) {
@@ -309,8 +293,11 @@ Navbar
     width: 11rem;
   }
 
+  .nav-container {
+    height: auto !important;
+  }
+
   .nav-links {
-    height: auto;
     display: flex;
     gap: 0 1rem;
   }
