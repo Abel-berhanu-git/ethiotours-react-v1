@@ -16,7 +16,8 @@ export const pageLinks = [
   { id: 2, href: '#about', text: 'about' },
   { id: 3, href: '#services', text: 'services' },
   { id: 4, href: '#tours', text: 'tours' },
-  { id: 5, href: '#gallery', text: 'gallery' },
+  { id: 5, href: '#testimonials', text: 'testimonials' },
+  { id: 6, href: '#gallery', text: 'gallery' },
 ];
 
 export const socialLinks = [
@@ -134,5 +135,36 @@ export const galleries = [
   {
     id: 8,
     img: tourImg12,
+  },
+];
+
+
+export const testimonials = [
+  {
+    id: 1,
+    name: 'Sarah M.',
+    country: 'United Kingdom',
+    trip: 'Lalibela Heritage Tour',
+    rating: 5,
+    quote:
+      'Every day felt special. Our guide explained the history so beautifully, and the hotels and transport were smooth from start to finish.',
+  },
+  {
+    id: 2,
+    name: 'Daniel R.',
+    country: 'Canada',
+    trip: 'Northern Ethiopia Discovery',
+    rating: 5,
+    quote:
+      'EthioTours gave us an immersive local experience, not just sightseeing. The food, people, and landscapes were unforgettable.',
+  },
+  {
+    id: 3,
+    name: 'Amina K.',
+    country: 'UAE',
+    trip: 'Culture & Nature Escape',
+    rating: 5,
+    quote:
+      'Professional team, flexible itinerary, and excellent communication. This was one of the best trips I have ever taken.',
   },
 ];

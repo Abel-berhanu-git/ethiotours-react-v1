@@ -6,6 +6,7 @@ import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import Services from './components/Services';
 import Tours from './components/Tours';
+import Testimonials from './components/Testimonials';
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <About />
       <Services />
       <Tours />
+      <Testimonials />
       <Contact />
       <Galleries />
       <Footer />
